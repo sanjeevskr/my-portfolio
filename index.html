@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d246b233c0.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon1.ico">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!-- cards -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- button -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXF12D3B7Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RXF12D3B7Q');
+  </script>
+</head>
+
+<body>
+  <!-- chat bot -->
+
+  <div id="center-text">
+  </div>
+  <div id="body">
+
+    <div id="chat-circle" class="btn btn-raised">
+      <div id="chat-overlay"></div>
+      <i class="fa-brands fa-rocketchat"></i>
+    </div>
+
+    <div class="chat-box">
+      <div class="chat-box-header">
+        ChatBot
+        <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+      </div>
+      <div class="chat-box-body">
+        <div class="chat-box-overlay">
+        </div>
+        <div class="chat-logs">
+
+        </div>
+        <!--chat-log -->
+      </div>
+      <div class="chat-input">
+        <form>
+          <input type="text" id="chat-input" placeholder="Send a message..." />
+          <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <!-- end -->
+
+
+
+  <section id="top-body">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="">
+        <h5 id="heading1">PORTFOLIO</h5>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a id="heading1" class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="heading1" class="nav-link" href="#middle2">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a id="heading1" class="nav-link" href="#middle2">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div id='title-animated-text'>
+      <div class="section">
+        <p class="anim-txt">
+          I'm
+          <span class="name">
+            Sanjeev kumar R
+          </span>
+          WEB DEVELOPER.
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div id="button" class="row">
+        <div class="">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" />
+              </filter>
+            </defs>
+          </svg>
+
+          <span class="button--bubble__container">
+            <a href="https://github.com/sanjeevskr" class="button button--bubble">
+              Github
+            </a>
+            <span class="button--bubble__effect-container">
+              <span class="circle top-left"></span>
+              <span class="circle top-left"></span>
+              <span class="circle top-left"></span>
+
+              <span class="button effect-button"></span>
+
+              <span class="circle bottom-right"></span>
+              <span class="circle bottom-right"></span>
+              <span class="circle bottom-right"></span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section id="about">
+    <div>
+      <img class="my-image" src="images/sanjeev.png" alt="my image">
+    </div>
+    <div class="container">
+      <div class="inabout">
+        <h1 class="about-h">ABOUT</h1>
+        <p>Hello! Welcome, I'm pursuing Bachelor Of Computer Science Engineering in Velammal Engineering College , currently in second year. I'm quite will Front-end and a good hand ball player. I've completed my schooling in Velammal Vidhyashram
+          CBSE,
+          Surapet and my hobbies watching anime , playing chess and that goes on. </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section id="middle1">
+    <div class="section container">
+      <!-- cards -->
+
+      <h1 class="title1">MY SKILLS</h1>
+
+      <div id="app" class="container">
+        <card data-image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png">
+          <h1 slot="header">Python</h1>
+        </card>
+        <card data-image="images/4.png">
+          <h1 slot="header">front-end</h1>
+
+        </card>
+        <card data-image="https://docs.microsoft.com/cs-cz/windows/images/c-logo.png">
+          <h1 slot="header">c, c++</h1>
+        </card>
+        <card data-image="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png">
+          <h1 slot="header">javascript</h1>
+        </card>
+      </div>
+
+    </div>
+  </section>
+  <section id="middle2">
+    <div class="my-projects">
+      <h1 class="last">MY PROJECTS</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://sanjeevskr.github.io/drum-kit/"> <img src="images/4.png" alt="Los Angeles" style="width:100%;display: block;"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://sanjeevskr.github.io/play-dice/"> <img src="images/2.png" alt="Los Angeles" style="width:100%;display: block;"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://sanjeevskr.github.io/tindog/"> <img src="images/3.png" alt="Los Angeles" style="width:100%;display: block;"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://sanjeevskr.github.io/my-first-site/"> <img src="images/1.png" alt="Los Angeles" style="width:100%;display: block;"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://sanjeevskr.github.io/simon/"> <img src="images/5.png" alt="Los Angeles" style="width:100%;display: block;"></a>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h3 class="last">Double tap to get in.☝</h3>
+
+
+    </div>
+
+  </section>
+  <section id="contact" class="footer">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Thank you so much for visiting my webpage.</h3>
+      <p class="end">"Even if you think you might lose, you'll be fine as long as you don't give up! Surpass your limits."</p>
+      <p class="yami"><b>-Yami</b> of black clover</p><br>
+
+
+
+      <div class="container">
+        <div id="button" class="row">
+          <div class="">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                  <feComposite in="SourceGraphic" in2="goo" />
+                </filter>
+              </defs>
+            </svg>
+
+            <span class="button--bubble__container">
+              <a href="mailto:sanjeevskr1971@gmail.com" class="button button--bubble">
+                contactMe
+              </a>
+              <span class="button--bubble__effect-container">
+                <span class="circle top-left"></span>
+                <span class="circle top-left"></span>
+                <span class="circle top-left"></span>
+
+                <span class="button effect-button"></span>
+
+                <span class="circle bottom-right"></span>
+                <span class="circle bottom-right"></span>
+                <span class="circle bottom-right"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bottom-container">
+
+
+      <a class="footer-link" href="https://github.com/sanjeevskr"><i class="fa-brands fa-github"></i></a>
+      <a class="footer-link" href="https://www.hackerrank.com/sanjeev_skr_"><i class="fa-brands fa-hackerrank"></i></a>
+      <a class="footer-link" href="http://intern.skillrack.com/profile/345600/d1541de0f383e88560df4f06b178a44109e64c68"><i class="fa-solid fa-cubes"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/_.sk.r_/"><i class="fa-brands fa-instagram"></i></a>
+      <a class="footer-link" href="https://www.linkedin.com/in/sanjeev-skr-1980/"><i class="fa-brands fa-linkedin"></i></a>
+      <p class="cr">© 2022 copyright.</p>
+    </div>
+
+  </section>
+
+
+  <!-- script for card -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+
+  <!-- script for button -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+  <!-- script for background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
